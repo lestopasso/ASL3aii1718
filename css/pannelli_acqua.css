@@ -1,0 +1,173 @@
+﻿@font-face {
+	font-family: Title;
+	src: url(Chunkfive.ttf);
+}
+title{
+	font-size: 450%;
+	}
+.Titolo{          /*Questo stile verrà usato per il titolo della pagina iniziale*/
+	color: #0053a1;
+	text-align: center;
+	font-family: Title;
+	font-size: 500%;
+	margin:0;
+}
+.test1{
+	padding-top:0px;
+	margin-top:0px;
+
+}
+.Titolo2{          /*Questo stile verrà usato per il titolo della pagina iniziale*/
+	color: #0053a1;
+	text-align: center;
+	font-family: Title;
+	font-size: 450%;
+	border: 0px 0px 0px 0px;
+	margin:0;
+}
+
+.TitoloIper{    /*utilizzato per il titolo dell'iper testo che deve essere allineato con l'ipertesto*/
+	color: #0053a1;
+	text-align: justify;
+	font-family: Title;
+	font-size: 250%;
+	margin:2.5%;
+}
+
+
+.TitoloParte2{     /*Questo stile verrà usato per il titolo delle soluzioni*/
+	color: #0053a1;
+	font-family: Title;
+	font-size: 250%;
+	margin:2.5%;
+}
+
+.TitoloParte2Blu{     /*Questo stile verrà usato per il titolo delle soluzioni*/
+	color:#0053a1;
+	font-family: Title;
+	font-size: 250%;
+	margin:2.5%;
+}
+.TestoSinistra{   /*Questo stile viene utilizzato per incolonnare il testo a sinistra nel caso in cui
+					vogliamo dividerlo in due colonne*/
+	width: 45%;
+	color: black;
+	text-align:justify;
+	hyphens: auto;
+	font-family: Trebuchet MS, sans-serif;
+	font-size:115%;
+	float: left;
+	margin-left: 2.5%
+}
+
+.TestoSinistra2{   /*Questo stile viene utilizzato per incolonnare il testo a sinistra nel caso in cui
+                      vogliamo dividerlo in due colonne*/
+	color: black;
+	width: 45%;
+	text-align:justify;
+	hyphens: auto;
+	font-family: Trebuchet MS, sans-serif;
+	font-size:115%;
+	float: left;
+	margin-left: 2.5%;
+}
+
+.TestoDestra{/*Questo stile viene utilizzato per incolonnare il testo a destra nel caso in cui
+                      vogliamo dividerlo in due colonne*/
+    color: black;
+	width: 45%;
+	text-align: justify;
+	hyphens: auto;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 115%;
+	float: right;
+	margin-right: 2.5%;
+
+}
+
+/*
+a:hover {color:#} (quando il mouse sta sopra il link)
+a:active {color:#} (quando hai cliccato e si sta aprendo)
+a:visited {color:#} (link già visitato)
+a:link {} (link non visitato)
+*/
+a:link {
+	color:#0053a1;
+}
+
+a:visited {
+	color:#0053a1;
+}
+
+.TestoDestra2{/*Questo stile viene utilizzato per incolonnare il testo a destra nel caso in cui
+                      vogliamo dividerlo in due colonne*/
+	color: black;
+	width: 45%;
+	text-align:justify;
+	hyphens: auto;
+	font-family: Trebuchet MS, sans-serif;
+	font-size:115%;
+	float: right;
+	margin-right: 2.5%;
+}
+
+.Ipertesto1{
+	color: black;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: justify;
+	hyphens: auto;
+	font-size: 150%;
+	width: 45%;
+	float: left;
+	margin-left: 2.5%;
+}
+
+.Ipertesto2{
+	color: black;
+	font-family: Trebuchet MS, sans-serif;
+	text-align: justify;
+	hyphens: auto;
+	font-size: 150%;
+	width: 45%;
+	float: right;
+	margin-right: 2.5%;
+}
+
+.Soluzione{
+	color: black;
+	font-family: Trebuchet MS, sans-serif;
+}
+
+.BloccoDiDestra{/*Questo stile viene utilizzato per mettere la freccia di passaggio alla pagine delle soluzioni*/
+	position: relative;
+	text-align: right;
+	float: right;
+}
+
+p {/* Allineamento immagini avanti,indietro,home e indice*/
+    display: inline;
+}
+.Loghi{
+	float: left;
+	}
+.Imgstandard{
+	width:80%;
+height:80%;}
+
+#foot{
+	bottom:0px;
+	overflow: hidden;
+    right: 0px;
+	width: 100%;
+	z-index: -1;  /* immagine deve sempre essere in background rispetto alle altre */
+}
+
+#testata{
+	position: absolute;
+	display: inline;
+	top:0px;
+	overflow: none;
+    right: 0px;
+	width: 100%;
+	z-index: -1;  /* immagine deve sempre essere in background rispetto alle altre */
+}
