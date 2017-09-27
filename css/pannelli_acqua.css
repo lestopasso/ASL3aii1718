@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Title;
+  src: url(Chunkfive.ttf);
+}
+
+.Titolo2 {
+  font-family: Title;
+  font-size: 450%;
+  margin: 0;
+}
+
+.Colore {
+  color: #0053a1
+}
+
+.ImgStandard {
+  height: 80%;
+  width: 80%;
+}
+
+.Center {
+  text-align: center;
+}
+
+img.Center {
+  display: block;
+  margin: 0 auto;
+}
+
+.Intestazione {
+  width: 100%;
+  top: 0px;
+}
+
+Article {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  -o-column-count: 2;
+  -ms-column-count: 2;
+  column-count: 2;
+}
+
+.Button {
+  position: relative;
+  text-align: right;
+}
+
+img.Button {
+  width: 23%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.Logo {
+  width: 13%;
+}
