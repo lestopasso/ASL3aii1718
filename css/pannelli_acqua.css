@@ -22,6 +22,14 @@
   text-align: center;
 }
 
+.Right {
+  text-align: right;
+}
+
+.Left {
+  text-align: left;
+}
+
 img.Center {
   display: block;
   margin: 0 auto;
@@ -38,11 +46,11 @@ Article {
   -o-column-count: 2;
   -ms-column-count: 2;
   column-count: 2;
+  text-align: justify;
 }
 
 .Button {
   position: relative;
-  text-align: right;
 }
 
 img.Button {
