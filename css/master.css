@@ -5,3 +5,17 @@
 .Italic {
   font-style: italic;
 }
+
+
+
+.Center {
+  text-align: center;
+}
+
+.Right {
+  text-align: right;
+}
+
+.Left {
+  text-align: left;
+}
