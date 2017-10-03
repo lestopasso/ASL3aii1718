@@ -13,23 +13,6 @@
   color: #0053a1
 }
 
-.ImgStandard {
-  height: 80%;
-  width: 80%;
-}
-
-.Center {
-  text-align: center;
-}
-
-.Right {
-  text-align: right;
-}
-
-.Left {
-  text-align: left;
-}
-
 img.Center {
   display: block;
   margin: 0 auto;
@@ -40,6 +23,14 @@ img.Center {
   top: 0px;
 }
 
+.Logo {
+  width: 13%;
+}
+
+.ImgStandard {
+  height: 80%;
+  width: 80%;
+}
 Article {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -59,6 +50,16 @@ img.Button {
   margin-top: 0px;
 }
 
-.Logo {
-  width: 13%;
+aside.FloatLeft {
+  margin-left: 2%;
+  float: left;
+  width: 50%;
+  padding: 0 20px 20px 0;
+}
+
+aside.FloatRight {
+  margin-right: 2%;
+  float: right;
+  width: 50%;
+  padding: 0 20px 20px 0;
 }
