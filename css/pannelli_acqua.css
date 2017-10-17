@@ -5,8 +5,15 @@
 
 .Titolo2 {
   font-family: Title;
-  font-size: 450%;
+  font-size: 250%;
   margin: 0;
+}
+
+h1.Left {
+  text-align: left;
+  margin-left: 5.5%;
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
 
 .Colore {
@@ -18,48 +25,10 @@ img.Center {
   margin: 0 auto;
 }
 
-.Intestazione {
-  width: 100%;
-  top: 0px;
-}
-
 .Logo {
   width: 13%;
 }
 
 .ImgStandard {
-  height: 80%;
-  width: 80%;
-}
-Article {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  -o-column-count: 2;
-  -ms-column-count: 2;
-  column-count: 2;
-  text-align: justify;
-}
-
-.Button {
-  position: relative;
-}
-
-img.Button {
-  width: 23%;
-  padding-top: 0px;
-  margin-top: 0px;
-}
-
-aside.FloatLeft {
-  margin-left: 2%;
-  float: left;
-  width: 50%;
-  padding: 0 20px 20px 0;
-}
-
-aside.FloatRight {
-  margin-right: 2%;
-  float: right;
-  width: 50%;
-  padding: 0 20px 20px 0;
+  width: 100%;
 }
