@@ -1,35 +1,44 @@
-<!DOCTYPE html>  <!--Pittaluga Cambiaso Uboldi-->
+<!DOCTYPE html>  <!--Di Lisio, Petri-->
 <html>
 	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/master.css">
 		<link rel="stylesheet" type="text/css" href="./css/pannelli_energia.css">
-		<!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
 		<title> Cogenerazione </title>
 	</head>
 	<body>
-	<img src="./img/IntestazioneIpertestoGiallo.png" alt="parteAlta" style="width:100%">
-	<h1 class="TitoloIper"> Cogenerazione </h1><br>
-	<div class="Ipertesto1">
-Esistono molti tipi di centrali per la produzione di energia elettrica: si possono caratterizzare per la fonte di calore (geotermica, solare…) o il tipo di combustile (petrolio, gas, carbone…) utilizzati, la trasformazione dell&apos;energia meccanica prodotta dall&apos;acqua o dal vento (centrali idroelettriche, eoliche), la fissione nucleare degli atomi di uranio (centrali atomiche). Le <b>centrali termoelettriche</b>, in cui il vapore e/o il gas sono utilizzati per la produzione di energia elettrica, sono le pi&ugrave; diffuse nel pianeta. <br> Una loro evoluzione &egrave; rappresentata dalle <b>centrali di cogenerazione a ciclo combinato</b> che producono energia elettrica e calore da un&apos;unica fonte primaria e consentono di recuperare il calore disperso nelle centrali termoelettriche tradizionali.
-	</div>
-	<div class="Ipertesto2">
-Il gas viene bruciato in una turbina, collegata a un generatore, la cui rotazione consente di produrre elettricit&agrave;. I gas di scarico della turbina, estremamente caldi, vengono a loro volta utilizzati per scaldare acqua, alimentare una turbina e ottenere altra elettricit&agrave;. Il calore residuo pu&ograve; essere utilizzato per il <b>teleriscaldamento</b>. <br>
-Un&apos;evoluzione ulteriore della cogenerazione &egrave; la <b>trigenerazione</b>, che oltre alla produzione contemporanea di elettricit&agrave; e calore, consente di utilizzare l&apos;energia termica per ottenere acqua refrigerata utilizzabile per <b>&ldquo;teleraffrescare&rdquo;</b>.
-
-	</div>
-	<center>
-	<img src="./img/i17Cogenerazione.png" alt="Es" style="width:70%"><br><br><br><br>
-	<a href="p11Soluzione.html">
-	     <img src="./img/BottoneEsciGiallo.png" alt="uscita" style="width:20%">
-	</center>
-	
-	<br><br><br><br><br><br><br><br>
-	<center>
-	<img src="./img/LogoIren.png" alt="Logo Iren" style="width:20%" hspace="20">
-	<img src="./img/LogoAmga.png" alt="Logo Amga" style="width:20%" hspace="20">
-	<img src="./img/LogoEcofan.png" alt="Logo Ecofan" style="width:20%" hspace="20">
-	<img src="./img/LogoFestival.png" alt="Logo Festival Scienza" style="width:20%" hspace="20">
-	</center>
-	
-	<img src="./img/PiePaginaGiallo.png" alt="Pie' pagina" style="width:100%">
+		<header>
+			<img src="./img/IntestazioneIpertestoGiallo.png" alt="Intestazione" class="Intestazione">
+			<h1 class="Colore Titolo2 Center"> Cogenerazione </h1><br>
+		</header>
+		<main>
+			<section>
+				<img src="./img/i17Cogenerazione.png" alt="Es" class="Center ImgStandard">
+			</section>
+			<section class="row">
+				<article class="col">
+					Esistono molti tipi di centrali per la produzione di energia elettrica: si possono caratterizzare per la fonte di calore (geotermica, solare) o il tipo di combustile (petrolio, gas, carbone) utilizzati, la trasformazione dell&apos;energia meccanica prodotta dall&apos;acqua o dal vento (centrali idroelettriche, eoliche), la fissione nucleare degli atomi di uranio (centrali atomiche). Le <bdi class="Bold">centrali termoelettriche</bdi>, in cui il vapore e/o il gas sono utilizzati per la produzione di energia elettrica, sono le pi&ugrave; diffuse nel pianeta. <br> Una loro evoluzione &egrave; rappresentata dalle <bdi class="Bold">centrali di cogenerazione a ciclo combinato</bdi> che producono energia elettrica e calore da un&apos;unica fonte primaria e consentono di recuperare il calore disperso nelle centrali termoelettriche tradizionali.
+				</article>
+				<article class="col">
+					Il gas viene bruciato in una turbina, collegata a un generatore, la cui rotazione consente di produrre elettricit&agrave;. I gas di scarico della turbina, estremamente caldi, vengono a loro volta utilizzati per scaldare acqua, alimentare una turbina e ottenere altra elettricit&agrave;. Il calore residuo pu&ograve; essere utilizzato per il <bdi class="Bold">teleriscaldamento</bdi>. <br>
+					Un&apos;evoluzione ulteriore della cogenerazione &egrave; la <bdi class="Bold">trigenerazione</bdi>, che oltre alla produzione contemporanea di elettricit&agrave; e calore, consente di utilizzare l&apos;energia termica per ottenere acqua refrigerata utilizzabile per <bdi class="Bold">&ldquo;teleraffrescare&rdquo;</bdi>.
+				</article>
+			</section>
+			<section class="Center Button">
+				<a href="p11Soluzione.html">
+				     <img src="./img/BottoneEsciGiallo.png" alt="uscita" class="Button">
+				</a>
+	    </section>
+		</main>
+		<footer class="Center">
+			<img src="./img/LogoIren.png" alt="Logo Iren" class="Logo">
+			<img src="./img/LogoEcofan.png" alt="Logo Ecofan" class="Logo">
+			<img src="./img/LogoAmga.png" alt="Logo Amga" class="Logo">
+		</footer>
 	</body>
-</html>
+	</html>
