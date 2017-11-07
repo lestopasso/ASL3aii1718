@@ -32,3 +32,7 @@ img.Center {
 .ImgStandard {
   width: 100%;
 }
+
+a:link a:visited a:hover a:active {
+  color: #ffcc00;
+}
