@@ -63,15 +63,6 @@ article {
   hyphens: auto;
 }
 
-@media (min-aspect-ratio: 50/97) {
-  footer {
-    position:fixed;
-    left:0px;
-    bottom:2px;
-    width:100%;
-  }
-}
-
 aside.MarginLeft {
   margin-left: 2.75%;
 }
