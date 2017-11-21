@@ -65,7 +65,7 @@ article {
 
 @media (min-aspect-ratio: 50/97) {
   footer {
-    position:absolute;
+    position:fixed;
     left:0px;
     bottom:0px;
     width:100%;
