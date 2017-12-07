@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="./css/pannelli_energia.css">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/master.css">
+		<link rel="stylesheet" href="./css/pannelli_ambiente.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 		<script src="loghi.js"></script>
 		<title> Soluzione </title>
 	</head>
@@ -21,22 +27,27 @@
 	<br><br><br><br></div>
 	<center>
 		<img src="./img/p13RetiSmart.png" alt="Immagine finale" style="width:70%"><br><br>
-	<p><a href="p13Introduzione.html">
-		    <img src="./img/FrecciaIndietroGiallaNuova.png" alt="Freccia indietro" style="width:20%" hspace="50"></a>
-		<a href="">
-		   <img src="./img/Casagialla.png" alt="Home" style="width:15%" hspace="30"></a>
-		<a href="">
-		<img src="./img/Indiceg.png" alt="Indice" style="width:15%" hspace="30"></a></a>
-		<a href="p14Introduzione.html">
-		<img src="./img/FrecciaAvantiGiallaNuova.png" alt="Freccia avanti" style="width:20%" hspace="50"></a></p>
 	</center>
-	<br><br><br><br><br><br><br><br>
-	<center>
-	<img src="./img/LogoIren.png" alt="Logo Iren" style="width:20%" hspace="20">
-	<img src="./img/LogoAmga.png" alt="Logo Amga" style="width:20%" hspace="20">
-	<img src="./img/LogoEcofan.png" alt="Logo Ecofan" style="width:20%" hspace="20">
-	<img src="./img/LogoFestival.png" alt="Logo Festival Scienza" style="width:20%" hspace="20">
-	</center>
-		<img src="./img/PiePaginaGiallo.png" alt="Pie' pagina" style="width:100%"><br><br>
+	<section class="Center">
+				<a href="p13Introduzione.html">
+					<img src="./img/FrecciaIndietroGiallaNuova.png" alt="Freccia indietro" class="Button">
+				</a>
+				<a href="p00Home.html">
+					<img src="./img/Casagialla.png" alt="Home" class="Button">
+				</a>
+				<a href="p00Index.html">
+					<img src="./img/Indiceg.png" alt="Indice" class="Button">
+				</a>
+				<a href="p14Introduzione.html">
+					<img src="./img/FrecciaAvantiGiallaNuova.png" alt="Freccia avanti" class="Button">
+				</a>
+			</section>
+		</main>
+		<footer class="Center">
+			<script>
+	        var testoLoghi = creaLoghi();
+	        document.getElementsByTagName("footer")[0].innerHTML += testoLoghi;
+			</script>
+		</footer>
 	</body>
 </html>
