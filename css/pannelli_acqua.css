@@ -1,36 +1,5 @@
-@font-face {
-  font-family: Title;
-  src: url(Chunkfive.ttf);
-}
-
-.Titolo2 {
-  font-family: Title;
-  font-size: 250%;
-  margin: 0;
-}
-
-h1.Left {
-  text-align: left;
-  margin-left: 5.5%;
-  margin-top: 4%;
-  margin-bottom: 2%;
-}
-
 .Colore {
   color: #0053a1;
-}
-
-img.Center {
-  display: block;
-  margin: 0 auto;
-}
-
-.Logo {
-  width: 13%;
-}
-
-.ImgStandard {
-  width: 100%;
 }
 
 a:link a:visited a:hover a:active {
