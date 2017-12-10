@@ -5,7 +5,7 @@
 
 .Titolo1 {
   font-family: Title;
-  font-size: 250%;
+  font-size: 400%;
   margin: 0;
 }
 
@@ -17,6 +17,10 @@
 
 .Bold {
   font-weight: bold;
+}
+
+.FontRidotta {
+  font-size: 170%;
 }
 
 .Button {

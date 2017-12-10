@@ -6,20 +6,25 @@
 .Titolo {
   color: #ff8029;
 	font-family: Title;
-	font-size: 600%;
+	font-size: 400%;
 	margin:0;
 }
 
 .Titolo2 {
   color: #ff8029;
   font-family: Title;
-  font-size: 315%;
+  font-size: 200%;
   margin: 0;
 }
 
 article {
-	font-size: 200%;
-  text-align: left;
+  text-align: justify;
+  line-height: 1.1em;
+  font-size: 120%;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
 }
 
 section {
