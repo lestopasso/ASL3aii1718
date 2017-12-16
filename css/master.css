@@ -6,7 +6,8 @@
 .Titolo1 {
   font-family: Title;
   font-size: 400%;
-  margin: 0;
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
 
 .Titolo2 {
@@ -79,6 +80,12 @@ img.Center {
 h1.Left {
   text-align: left;
   margin-left: 5.5%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+h1.Ipertesto {
+  text-align: center;
   margin-top: 4%;
   margin-bottom: 2%;
 }
