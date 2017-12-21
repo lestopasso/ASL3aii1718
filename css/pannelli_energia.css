@@ -1,7 +1,7 @@
-﻿.Colore {
+.Colore {
   color: #ffcc00;
 }
 
-a:link a:visited a:hover a:active {
-  color: #ffcc00;
+a:link, a:visited, a:hover, a:active {
+  color: #ffcc00 !important; 
 }
