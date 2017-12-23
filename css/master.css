@@ -6,14 +6,12 @@
 .Titolo1 {
   font-family: Title;
   font-size: 400%;
-  margin-top: 4%;
   margin-bottom: 2%;
 }
 
 .Titolo2 {
   font-family: Title;
   font-size: 200%;
-  margin-top: 4%;
   margin-bottom: 2%;
 }
 
@@ -21,7 +19,6 @@
   font-family: Title;
   font-size: 200%;
   text-align: center;
-  margin-top: 4%;
   margin-bottom: 2%;
 }
 
@@ -86,7 +83,7 @@ img.Center {
   margin: 0 auto;
 }
 
-h1.Left {
+h1xxxx.Left {
   text-align: left;
   margin-left: 5%;
   margin-top: 4%;
@@ -98,9 +95,10 @@ h1.Left {
 }
 
 main {
-  margin-left: 3.3%;
-  margin-right: 3.3%;
-  margin-bottom: 3.3%;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 4%;
+  margin-bottom: 3%;
   padding-bottom: 80px;
 }
 
