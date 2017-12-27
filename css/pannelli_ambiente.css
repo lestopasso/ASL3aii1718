@@ -7,14 +7,13 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .listStyle{
- color: #1ea538;
-    }
+  color: #1ea538;
+  margin-bottom:0px;
+}
 
 .listStyle p{
     color: black;
-}
-.listStyle p{
-    padding:0px;
+	padding:0px;
     margin:0px;
 }
 
