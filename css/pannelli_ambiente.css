@@ -5,3 +5,17 @@
 a:link, a:visited, a:hover, a:active {
   color: #1ea538 !important;
 }
+
+.listStyle{
+ color: #1ea538;
+    }
+
+.listStyle p{
+    color: black;
+}
+.listStyle p{
+    padding:0px;
+    margin:0px;
+}
+
+
