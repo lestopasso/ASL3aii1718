@@ -1,7 +1,8 @@
 .Colore {
-  color: #ffcc00;
+  color: #ffbf00;
 }
 
 a:link, a:visited, a:hover, a:active {
-  color: #ffcc00 !important; 
+  color: #ffbf00 !important; 
+  text-decoration: underline;
 }

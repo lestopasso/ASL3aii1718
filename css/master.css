@@ -26,9 +26,8 @@
 
 .TitoloIpertesto {
   font-family: Title;
-  font-size: 200%;
+  font-size: 230%;
   text-align: center;
-  margin-bottom: 2%;
 }
 
 .Bold {
@@ -49,7 +48,7 @@
 }
 
 .ImgStandard {
-  width: 100%;
+  width: 95%;
 }
 
 .ImgResize80 {
