@@ -41,6 +41,7 @@
 .Button {
   position: relative;
   margin-top: 3.3%;
+  
 }
 
 .Center {
@@ -137,3 +138,23 @@ aside.MarginLeft {
 aside.MarginRight {
   margin-right: 2.75%;
 }
+
+.copyrightTesto{
+	font-size: 10px;
+	margin-top: 1%;
+}
+
+.bottoneChiudiDue{
+	margin-top: 0px;
+	
+}
+
+.buttonChiudi{
+	width: 20% !important;
+}
+
+.imgBorder{
+	
+	border: 2px solid black;
+}
+

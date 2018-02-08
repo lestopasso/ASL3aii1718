@@ -43,3 +43,20 @@ section {
 buttons {
   display: block;
 }
+
+.homeTestoUno{
+	font-size: 18px;
+}
+
+.homeTestoDue{
+	font-size: 17px;
+}
+
+.Bandiera{
+	width:10%;
+	
+}
+
+a:link{
+	color: #ff8029 !important;
+}
