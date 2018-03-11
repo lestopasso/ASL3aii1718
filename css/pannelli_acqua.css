@@ -6,3 +6,8 @@ a:link, a:visited, a:hover, a:active {
   color: #0053a1 !important;
   text-decoration: underline;
 }
+
+.BG {
+	background-color: #E3E4F4;
+	border: 2px solid #E3E4F4;
+}

@@ -158,3 +158,17 @@ aside.MarginRight {
 	border: 2px solid black;
 }
 
+.BG {
+	width: 100%;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 40%;
+	margin-top: 3% !important;
+	margin-bottom: 5% !important;
+}
+
+.MarginP {
+	line-height: 1.15em;
+	hyphens: auto;
+	text-align: justify;
+	margin: 2.5% 4% 4% 4%; 
+}
