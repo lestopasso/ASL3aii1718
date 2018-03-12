@@ -26,6 +26,13 @@
   margin: 0;
 }
 
+.Titolo3 {
+  color: #ff8029;
+  font-family: Title;
+  font-size: 120%;
+  margin: 0;
+}
+
 article {
   text-align: justify;
   line-height: 1.1em;
