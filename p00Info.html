@@ -11,7 +11,7 @@
     <script src="loghi.js"></script>
     <title>Informazioni</title>
   </head>
-  <body>
+  <body onload="setInterval">
     <header>
       <img src="./img/p00Intestazione.png" alt="p00Intestazione" class="Intestazione">
       <h1 class="Titolo2 Center">Informazioni</h1>
@@ -36,8 +36,14 @@ I pannelli e i giochi proposti per il Festival, arricchiti di nuovi contenuti lu
 Il progetto di autoimprenditorialità, condiviso con l’Ufficio Scolastico Regionale della Liguria, è compreso nell’impegno di Iren nel campo della didattica (Edu.Iren) e nel novero delle iniziative di alternanza promosse nei diversi territori in cui l’azienda opera. <br/>
 Gli studenti sono stati formati all’imprenditorialità, stimolandone  la creatività e la capacità di relazionarsi professionalmente con persone ed enti esterni alla scuola ponendo l’accento sulla cultura di impresa. A tal fine sono stati programmati incontri con la Camera di Commercio, momenti formativi sulle tecnologie in modalità <bdi class="Italic">flipped classroom</bdi>,  confronti con esponenti Iren e liberi professionisti per definire le specifiche progettuali e approfondire tematiche specifiche (organizzazione aziendale, logiche di approvvigionamento e criteri di selezione dei fornitori, <bdi class="Italic">brand identity</bdi> e strategie di comunicazione, esperienze di autoimprenditorialità, tecniche di <bdi class="Italic">gamification</bdi>). Sono state poi selezionate le migliori proposte presentate dagli studenti, costituiti dei team per la realizzazione dei diversi “lotti” progettuali e pianificati incontri periodici per verifica dello stato di “avanzamento dei lavori”. 
 L’esperienza ha consentito di percorrere una via diversa, molto più complessa ed onerosa in termini di tempo e impegno per l’azienda, ma davvero stimolante, per la realizzazione di un’iniziativa di sensibilizzazione ambientale: affidare lo sviluppo di un prodotto web a nativi digitali, il cui “punto di vista” è stato un valore aggiunto per potenziare l’efficacia di un messaggio educativo destinato principalmente ad altri ragazzi. 
+</br><label for="Video">Il progetto ha vinto il primo premio del concorso nazionale "Storie di Alternanza" promosso da Unioncamere e dalle Camere di Commercio, con l'obiettivo di valorizzare e dare visibilità ai racconti dei progetti di alternanza scuola lavoro avviati con gli istituti scolastici italiani di secondo grado.</label>
 <br/><br/><br/>
-<bdi class="Italic">Inserire link al video</bdi>
+<div name="Video" class="Center">
+  <video id="myVideo" width="600" poster="./img/thumbnail.jpg" controls>
+    <source src="./img/VideoSeiEcologico.mp4" type="video/mp4">
+    Questo browser non supporta HTML5 Video.
+  </video>
+</div>
 <br/><br/><br/>
 <bdi class="Bold">Coordinamento/ideazione progetto e sviluppo contenuti</bdi>
 <br/>
@@ -74,6 +80,18 @@ Si ringraziano Studio Salsi Comunicazione e Valentina Persano per il contributo 
       <script>
         var testoLoghi = creaLoghi();
         document.getElementsByTagName("footer")[0].innerHTML += testoLoghi;
+        var vid = document.getElementById('myVideo');
+
+        function timer() {
+          if(vid.ended) vid.load();
+        }
+        
+        
+          setInterval(function() {
+            timer();
+          }, 1000);
+        
+
       </script>
     </footer>
   </body>
