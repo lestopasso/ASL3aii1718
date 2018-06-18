@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/p00.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="./loghi.js"></script>
+    
+	<title>Homepage</title>
+  </head>
+  <body>
+    <header>
+      <img src="../img/p00Intestazione.png" alt="p00Intestazione" class="Intestazione">
+      <h1 class="Titolo Center">Sei Eco-<i>logico</i>?</h1>
+      <h2 class="Titolo2 Center">Giochi e soluzioni per la sostenibilit&agrave;</h2>
+    </header>
+    <main>
+      <section class="row">
+        <aside class="col">
+          <img src="../img/p00Pensatore.jpg" class="Center ImgStandard">
+        </aside>
+        <aside class="col">
+          <article class="Right">
+		  <br/><br/>
+		  <p><a href="../p00Home.html"><bdi class="Bold" ><u>IT</u></bdi></a>/EN</p>
+		  <br/><br/><br/>
+		  <bdi class="Bold homeTestoUno">
+              <br><br>L&rsquo;umanit&agrave; ha la possibilit&agrave;<br>di rendere sostenibile lo sviluppo,<br>cio&egrave; di far s&igrave; che esso soddisfi<br>i bisogni dell'attuale generazione<br>senza
+              compromettere la capacit&agrave;<br>delle generazioni future<br>di realizzare i propri<br><br>
+            </bdi>
+            <bdi class="Italic homeTestoDue">
+              Rapporto Brundtland<br>Commissione mondiale<br>per l'ambiente e lo sviluppo
+            </bdi>
+			
+          </article>
+        </aside>
+      </section>
+      <section class="row">
+        <article class="col">
+          Questo percorso racconta come pu&ograve; essere virtuosa la gestione dei servizi  idrici, ambientali ed energetici e quale contributo pu&ograve; dare il cittadino, seguendo semplici regole per un consumo responsabile.<br/>
+          Troverai indovinelli, rebus, giochi di parole e di logica e vignette divertenti: usa la mente, non la penna, e trova le soluzioni. <br />
+          Buon divertimento!
+      	</article>
+      </section>
+      <buttons class="Button Center">
+        <a href="p01Introduzione.html">			<!-- LINK AL PRIMO PANNELLO ACQUA -->
+				  <img src="../img/BottoneAcqua.png" alt="ACQUA" class="Button"></a>
+				<a href="p06Introduzione.html">			<!-- LINK AL PRIMO PANNELLO AMBIENTE -->
+					<img src="../img/BottoneAmbiente.png" alt="AMBIENTE" class="Button"></a>
+				<a href="p11Introduzione.html">			<!-- LINK AL PRIMO PANNELLO ENERGIA -->
+					<img src="../img/BottoneEnergia.png" alt="ENERGIA" class="Button"></a>
+      </buttons>
+	  <buttons class="Button Center">
+        <a href="p00Index.html">			<!-- LINK ALL'INDICE -->
+				  <img src="../img/IndiceRosso.png" alt="Indice" class="Button">
+				</a>
+				<a href="p00Info.html">			<!-- LINK ALLA PAGINA INFO -->
+					<img src="../img/InfoArancione.png" alt="Info" class="Button">
+				</a>
+      </buttons>
+    </main>
+    <footer class="Center">
+      <script>
+        var testoLoghi = creaLoghi();
+        document.getElementsByTagName("footer")[0].innerHTML += testoLoghi;
+      </script>
+    </footer>
+  </body>
+</html>
