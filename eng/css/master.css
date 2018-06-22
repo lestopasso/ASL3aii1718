@@ -1,0 +1,174 @@
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+  font-family: Title;
+  src: url(Chunkfive.ttf);
+}
+
+.Titolo1 {
+  font-family: Title;
+  font-size: 400%;
+  margin-bottom: 2%;
+}
+
+.Titolo2 {
+  font-family: Title;
+  font-size: 200%;
+  margin-bottom: 2%;
+}
+
+.TitoloIpertesto {
+  font-family: Title;
+  font-size: 230%;
+  text-align: center;
+}
+
+.Bold {
+  font-weight: bold;
+}
+
+.FontRidotta {
+  font-size: 170%;
+}
+
+.Button {
+  position: relative;
+  margin-top: 3.3%;
+  
+}
+
+.Center {
+  text-align: center;
+}
+
+.ImgStandard {
+  width: 95%;
+}
+
+.ImgResize80 {
+  width: 80%;
+}
+
+.Intestazione {
+  width: 100%;
+  top: 0px;
+}
+
+.Italic {
+  font-style: italic;
+}
+
+.Left {
+  text-align: left;
+}
+
+.Logo {
+  width: 13%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.Right {
+  text-align: right;
+}
+
+img.Button {
+  width: 14.5%;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+img.Center {
+  display: block;
+  margin: 0 auto;
+}
+
+h1xxxx.Left {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.Clear {
+  clear: both;
+}
+
+main {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  padding-bottom: 80px;
+}
+
+article {
+  text-align: justify;
+  line-height: 1.1em;
+  font-size: 90%;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+@media (min-aspect-ratio: 50/97) {
+  footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+	background-color: white;
+  }
+}
+
+aside.MarginLeft {
+  margin-left: 2.75%;
+}
+
+aside.MarginRight {
+  margin-right: 2.75%;
+}
+
+.copyrightTesto{
+	font-size: 10px;
+	margin-top: 1%;
+}
+
+.bottoneChiudiDue{
+	margin-top: 0px;
+	
+}
+
+.buttonChiudi{
+	width: 20% !important;
+}
+
+.imgBorder{
+	
+	border: 2px solid black;
+}
+
+.BG {
+	width: 100%;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 40%;
+	margin-top: 3% !important;
+	margin-bottom: 5% !important;
+}
+
+.MarginP {
+	line-height: 1.15em;
+	hyphens: auto;
+	text-align: justify;
+	margin: 2.5% 4% 4% 4%; 
+}
