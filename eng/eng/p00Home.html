@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/master.css">
+    <link rel="stylesheet" href="../css/p00.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="./loghi.js"></script>
+    
+	<title>Homepage</title>
+  </head>
+  <body>
+    <header>
+      <img src="../img/p00Intestazione.png" alt="p00Intestazione" class="Intestazione">
+      <h1 class="Titolo Center">Are You Eco-<i>logical</i>?</h1>
+      <h2 class="Titolo2 Center">Games and Solutions for Sustainability</h2>
+    </header>
+    <main>
+      <section class="row">
+        <aside class="col">
+          <img src="../img/p00Pensatore.jpg" class="Center ImgStandard">
+        </aside>
+        <aside class="col">
+          <article class="Right">
+		  <br/><br/>
+		  <p><a href="../p00Home.html"><bdi class="Bold" ><u>IT</u></bdi></a>/EN</p>
+		  <br/>
+		  <bdi class="Bold homeTestoUno">
+              "Humanity has the ability<br>to make development<br>sustainable to ensure<br>that it meets the needs<br>of the present without <br>compromising the ability<br> of future generations to<br> meet their own needs"<br><br>
+
+            </bdi>
+            <bdi class="Italic homeTestoDue">
+              Brundtland Report<br>World Commission on<br>Environment and Development
+            </bdi>
+			
+          </article>
+        </aside>
+      </section>
+      <section class="row">
+        <article class="col">
+          Sustainable development can be defined as the organising principle which allows everyone to live on this planet  in a dignified and equitable way for all, without destroying the natural systems from which we obtain resources, and without exceeding their ability to support the emissions, debris and waste caused by our production activities.<br> 
+			This experience, through games, fun riddles and word puzzles, accompanied by amusing illustrations, will take you on a journey which shows how our water, energy and the waste management services can be managed in a correct way also thanks to the efforts of citizens following simple rules for responsible use and consumption. 
+
+      	</article>
+      </section>
+      <buttons class="Button Center">
+        <a href="p01Introduzione.html">			<!-- LINK AL PRIMO PANNELLO ACQUA -->
+				  <img src="../img/BottoneAcqua.png" alt="ACQUA" class="Button"></a>
+				<a href="p06Introduzione.html">			<!-- LINK AL PRIMO PANNELLO AMBIENTE -->
+					<img src="../img/BottoneAmbiente.png" alt="AMBIENTE" class="Button"></a>
+				<a href="p11Introduzione.html">			<!-- LINK AL PRIMO PANNELLO ENERGIA -->
+					<img src="../img/BottoneEnergia.png" alt="ENERGIA" class="Button"></a>
+      </buttons>
+	  <buttons class="Button Center">
+        <a href="p00Index.html">			<!-- LINK ALL'INDICE -->
+				  <img src="../img/IndiceRosso.png" alt="Indice" class="Button">
+				</a>
+				<a href="p00Info.html">			<!-- LINK ALLA PAGINA INFO -->
+					<img src="../img/InfoArancione.png" alt="Info" class="Button">
+				</a>
+      </buttons>
+    </main>
+    <footer class="Center">
+      <script>
+        var testoLoghi = creaLoghi();
+        document.getElementsByTagName("footer")[0].innerHTML += testoLoghi;
+      </script>
+    </footer>
+  </body>
+</html>
