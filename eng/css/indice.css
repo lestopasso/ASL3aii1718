@@ -1,4 +1,4 @@
-*{
+* {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -7,171 +7,321 @@
     user-select: none;
 }
 
-body{
-	background: url("../img/MoiseDisegnoIndice.png") no-repeat center center fixed;
-	background-size: auto 100%;
+body {
+    background: url("../img/IndiceVertEng.png") no-repeat center center fixed;
+    background-size: auto 100%;
 }
 
 
-.r1{
-	-webkit-transform: rotate(15deg);
-    -moz-transform: rotate(15deg);
-    -o-transform: rotate(15deg);
-    -ms-transform: rotate(15deg);
-    transform: rotate(15deg);
+.r3{
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
 }
 
-.r2{
-	-webkit-transform: rotate(4deg);
+.r1 {
+    -webkit-transform: rotate(13deg);
+    -moz-transform: rotate(13deg);
+    -o-transform: rotate(13deg);
+    -ms-transform: rotate(13deg);
+    transform: rotate(13deg);
+}
+
+.r2 {
+    -webkit-transform: rotate(4deg);
     -moz-transform: rotate(4deg);
     -o-transform: rotate(4deg);
     -ms-transform: rotate(4deg);
     transform: rotate(4deg);
 }
 
+.home {
+    position: absolute;
+    top: 11.2%;
+    left: 33%;
+    width: 37%;
+    height: 5%;
+}
 
+.info {
+    position: absolute;
+    top: 16.6%;
+    left: 36%;
+    width: 37%;
+    height: 5%;
+}
+
+.p1 {
+    position: absolute;
+    top: 24.4%;
+    left: 35%;
+    width: 38%;
+    height: 2%;
+}
+
+.p2 {
+    position: absolute;
+    top: 26.6%;
+    left: 35%;
+    width: 38%;
+    height: 2%;
+}
+
+.p3 {
+    position: absolute;
+    top: 28.3%;
+    left: 34%;
+    width: 30%;
+    height: 2%;
+}
+
+.p4 {
+    position: absolute;
+    top: 31.5%;
+    left: 33%;
+    width: 44%;
+    height: 1.5%;
+}
+
+.p5 {
+    position: absolute;
+    top: 32%;
+    left: 33%;
+    width: 20%;
+    height: 2%;
+}
+
+.p6 {
+    position: absolute;
+    top: 36.5%;
+    left: 32.5%;
+    width: 35%;
+    height: 2%;
+}
+
+.p7 {
+    position: absolute;
+    top: 39%;
+    left: 32.5%;
+    width: 44%;
+    height: 2%;
+}
+
+.p8 {
+    position: absolute;
+    top: 41%;
+    left: 32.5%;
+    width: 47%;
+    height: 4%;
+}
+
+.p9 {
+    position: absolute;
+    top: 45%;
+    left: 32.5%;
+    width: 35%;
+    height: 2%;
+}
+
+.p10 {
+    position: absolute;
+    top: 47.7%;
+    left: 31.5%;
+    width: 35%;
+    height: 2%;
+}
+
+.p11 {
+    position: absolute;
+    top: 51.7%;
+    left: 31.5%;
+    width: 44%;
+    height: 2%;
+}
+
+.p12 {
+    position: absolute;
+    top: 54%;
+    left: 31.5%;
+    width: 44%;
+    height: 3.5%;
+}
+
+.p13 {
+    position: absolute;
+    top: 58%;
+    left: 31.5%;
+    width: 44%;
+    height: 2%;
+}
+
+.p14 {
+    position: absolute;
+    top: 60%;
+    left: 31.5%;
+    width: 35%;
+    height: 2%;
+}
+
+.p15 {
+    position: absolute;
+    top: 62.8%;
+    left: 31.1%;
+    width: 40%;
+    height: 2%;
+}
+
+
+
+@media only screen and (min-aspect-ratio:3/2) and (max-aspect-ratio:33/15) {
+    
+    body {
+        background: url("../img/IndiceOrizEng.png") no-repeat center center fixed;
+        background-size: auto 90%;
+    }
+    .r1 {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .r2 {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .r3 {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .home {
+        position: absolute;
+        top: 9%;
+        left: 1%;
+        width: 27%;
+        height: 5%;
+    }
+    .info {
+        position: absolute;
+        top: 9%;
+        left: 70%;
+        width: 30%;
+        height: 5%;
+    }
+    .p1 {
+        position: absolute;
+        top: 33.5%;
+        left: 54%;
+        width: 23%;
+        height: 2.5%;
+    }
+    .p2 {
+        position: absolute;
+        top: 37%;
+        left: 54%;
+        width: 23%;
+        height: 2.5%;
+    }
+    .p3 {
+        position: absolute;
+        top: 40.7%;
+        left: 54%;
+        width: 23%;
+        height: 2.5%;
+    }
+    .p4 {
+        position: absolute;
+        top: 44.5%;
+        left: 54%;
+        width: 26%;
+        height: 2.5%;
+    }
+    .p5 {
+        position: absolute;
+        top: 48%;
+        left: 54%;
+        width: 23%;
+        height: 2.5%;
+    }
+    .p6 {
+        position: absolute;
+        top: 59.5%;
+        left: 4%;
+        width: 33%;
+        height: 2.8%;
+    }
+    .p7 {
+        position: absolute;
+        top: 63%;
+        left: 4%;
+        width: 33%;
+        height: 3%;
+    }
+    .p8 {
+        position: absolute;
+        top: 67%;
+        left: 4%;
+        width: 33%;
+        height: 5%;
+    }
+    .p9 {
+        position: absolute;
+        top: 73%;
+        left: 4%;
+        width: 33%;
+        height: 2.8%;
+    }
+    .p10 {
+        position: absolute;
+        top: 77%;
+        left: 4%;
+        width: 33%;
+        height: 2.8%;
+    }
+    .p11 {
+        position: absolute;
+        top: 8.5%;
+        left: 38%;
+        width: 24%;
+        height: 2.8%;
+    }
+    .p12 {
+        position: absolute;
+        top: 12%;
+        left: 38%;
+        width: 24%;
+        height: 6%;
+    }
+    .p13 {
+        position: absolute;
+        top: 18.5%;
+        left: 38%;
+        width: 25%;
+        height: 2.8%;
+    }
+    .p14 {
+        position: absolute;
+        top: 22%;
+        left: 38%;
+        width: 24%;
+        height: 2.8%;
+    }
+    .p15 {
+        position: absolute;
+        top: 25.7%;
+        left: 38%;
+        width: 24%;
+        height: 2.8%;
+    }
+}
 
 
 /*Funziona solo con schermi verticali, poi da sistemare con media query https://www.w3schools.com/cssref/css3_pr_mediaquery.asp*/
-
-
-
-
-.home{
-	position: absolute;
-	top: 12%;
-	left: 33%;
-	width:37%;
-	height:5%;
-}
-
-.info{
-	position: absolute;
-	top: 17.5%;
-	left: 36%;
-	width:37%;
-	height:5%;
-}
-
-
-
-.p1{
-	position: absolute;
-	top: 25.4%;
-	left: 39%;
-	width:38%;
-	height:2%;
-}
-
-.p2{
-	position: absolute;
-	top: 27.5%;
-	left: 37.8%;
-	width:38%;
-	height:2%;
-}
-
-.p3{
-	position: absolute;
-	top: 29%;
-	left: 36%;
-	width:30%;
-	height:2%;
-}
-
-.p4{
-	position: absolute;
-	top: 32.3%;
-	left: 35%;
-	width:38%;
-	height:1.5%;
-}
-
-.p5{
-	position: absolute;
-	top: 33.5%;
-	left: 33%;
-	width:27%;
-	height:2%;
-}
-
-
-.p6{
-	position: absolute;
-	top: 38%;
-	left: 32.5%;
-	width:35%;
-	height:2%;
-}
-
-
-.p7{
-	position: absolute;
-	top: 40.2%;
-	left: 32.5%;
-	width:35%;
-	height:2%;
-}
-
-.p8{
-	position: absolute;
-	top: 42.5%;
-	left: 32.5%;
-	width:47%;
-	height:2%;
-}
-
-.p9{
-	position: absolute;
-	top: 45%;
-	left: 32.5%;
-	width:35%;
-	height:2%;
-}
-.p10{
-	position: absolute;
-	top: 47.5%;
-	left: 31.5%;
-	width:35%;
-	height:2%;
-}
-
-.p11{
-	position: absolute;
-	top: 51.5%;
-	left: 31.5%;
-	width:35%;
-	height:2%;
-}
-
-.p12{
-	position: absolute;
-	top: 54%;
-	left: 31.5%;
-	width:35%;
-	height:2%;
-}
-
-.p13{
-	position: absolute;
-	top: 56%;
-	left: 31.5%;
-	width:35%;
-	height:2%;
-}
-
-.p14{
-	position: absolute;
-	top: 58.8%;
-	left: 31.5%;
-	width:35%;
-	height:2%;
-}
-
-.p15{
-	position: absolute;
-	top: 61%;
-	left: 31.1%;
-	width:40%;
-	height:2%;
-}
