@@ -1,0 +1,69 @@
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@font-face {
+  font-family: Title;
+  src: url(Chunkfive.ttf);
+}
+
+.Titolo {
+  color: #ff8029;
+	font-family: Title;
+	font-size: 400%;
+	margin:0;
+}
+
+.Titolo2 {
+  color: #ff8029;
+  font-family: Title;
+  font-size: 200%;
+  margin: 0;
+}
+
+.Titolo3 {
+  color: #ff8029;
+  font-family: Title;
+  font-size: 150%;
+  margin: 0;
+}
+
+article {
+  text-align: justify;
+  line-height: 1.1em;
+  font-size: 120%;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+section {
+  margin-bottom: 5%;
+}
+
+buttons {
+  display: block;
+}
+
+.homeTestoUno{
+	font-size: 18px;
+}
+
+.homeTestoDue{
+	font-size: 17px;
+}
+
+.Bandiera{
+	width:10%;
+	
+}
+
+a{
+	color: #ff8029 !important;
+}

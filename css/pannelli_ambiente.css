@@ -1,0 +1,25 @@
+﻿.Colore {
+  color: #1ea538;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: #1ea538 !important;
+  text-decoration: underline;
+}
+
+.listStyle{
+  color: #1ea538;
+  margin-bottom:0px;
+}
+
+.BG {
+  background-color: #CDE6C5;
+}
+
+.listStyle p{
+  color: black;
+	padding:0px;
+  margin:0px;
+}
+
+
